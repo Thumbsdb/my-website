@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--	name shite -->
+	<title>The Beginning</title>
+	<link rel="icon" href="https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png" type="image/icon type">
+<!-- 	end of name shite -->
+	<style>
+		body{
+			margin: 0px;
+		}
+		p{
+			text-align: center;
+		}
+		.header {
+			background-color: darkorange;
+			color: orangered;
+			font-size: 50px;
+			height: 60px;
+			margin: 0px;
+			border: 10px groove tomato;
+		}
+		.pad{
+			padding: 25px;
+		}
+		.gothic-black{
+			text-align: center;
+			background-color: black;
+			color: purple;
+			border: 5px double purple;
+			padding: 10px;
+			margin: 25px;
+		}
+		.black-n-white{
+			color: white;
+			background-color: black;
+			width: 25%;
+			margin: 10px;padding 5px;
+			border: 10px ridge grey;
+			font-size: 25px;
+			float: left;
+		}
+		.flex-container {
+			  display: flex;
+			  flex-direction: column;
+		}
+		.navigation-menu{		
+			float: left;
+			width: 50%;
+			padding: 5px;
+		}
+		.clearfix::after {
+			 content: "";
+			 clear: both;
+			 display: table;
+		}
+	</style>
+</head>
+<body >
+	<p class="header pad">
+		Welcum to my website
+	</p>
+<!--    navigation menu floaty -->	
+	<div class="clearfix">
+		<div class="navigation-menu" style="background-color: black;">
+		<a href="homepage.html">home page</a><br/>
+		</div>
+		<div class="navigation-menu" style="background-color: grey;">
+		<a href="page2.html">To do list</a><br/>
+		</div>	
+	</div>
+<!--    Floating boxes -->
+	<div class="black-n-white">
+		<p>line 1<br/>
+		line break</p>
+		<p>line 2</p>
+	</div>
+	<div style="color: blue;
+		border: 5px outset #D2691E;
+		text-align: center;
+		font-size: 20pt;
+		padding: 25px; margin: 50px;
+		width: 60%;
+		float: right">
+		<p>other box</p>
+	</div>
+<!--	spacing betwen floating shit -->	
+	<div class="flex-container">
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+		<div>4</div>
+		<div>5</div>
+		<div>6</div>
+		<div>7</div>
+		<div>8</div>
+		<div>9</div> 
+		<div>10</div>
+	</div>	
+<!--	random garbage -->
+	<p class="gothic-black">
+		css class
+	</p>
+	<p>
+		no css class
+	</p>
+<!-- 	images will do later -->
+<!--	<img src="crab_fight.jpg" alt="FightingCrabs"/>	-->
+<!--	<img src="https://code.org/images/learn/hoc2020_background.png"/> -->
+</body>
+</html>
